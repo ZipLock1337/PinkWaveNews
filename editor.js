@@ -31,7 +31,6 @@ const logoutBtn = document.getElementById("logoutBtn");
 // ==========================
 
 adminBtn?.addEventListener("click", () => {
-  // уже editor — просто остаёмся в режиме
   localStorage.setItem("isEditorLoggedIn", "true");
   window.location.href = "/index.html?role=editor";
 });
@@ -64,7 +63,7 @@ if (localStorage.getItem("isEditorLoggedIn") !== "true") {
 
 document.getElementById("logoutBtn").addEventListener("click", () => {
   localStorage.removeItem("isEditorLoggedIn");
-  window.location.href = "../index.html";
+  window.location.href = "index.html";
 });
 
 // ===== Media Logic =====

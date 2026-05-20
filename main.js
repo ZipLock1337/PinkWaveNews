@@ -293,10 +293,10 @@ if (isUserLoggedIn || isEditorLoggedIn) {
     if (publishBtn) {
         if (isEditorLoggedIn) {
             publishBtn.textContent = "Перейти в панель";
-            publishBtn.href = "/Editor_blank/editor.html";
+            publishBtn.href = "editor.html";
         } else {
             publishBtn.textContent = "Редакторський доступ";
-            publishBtn.href = "/Autorization_blank/authorization.html";
+            publishBtn.href = "authorization.html";
         }
     }
 

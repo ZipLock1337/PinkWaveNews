@@ -133,7 +133,7 @@ form?.addEventListener("submit", async (e) => {
       localStorage.setItem("userEmail", email);
       localStorage.setItem("userNickname", "Editor");
 
-      window.location.href = "../Editor_blank/editor.html";
+      window.location.href = "editor.html";
       return;
     }
 
@@ -165,7 +165,7 @@ form?.addEventListener("submit", async (e) => {
       localStorage.setItem("userNickname", finalNickname);
       localStorage.setItem("userAvatar", avatarURL || "");
 
-      window.location.href = "../index.html";
+      window.location.href = "index.html";
       return;
     }
 
