@@ -32,7 +32,7 @@ const logoutBtn = document.getElementById("logoutBtn");
 
 adminBtn?.addEventListener("click", () => {
   localStorage.setItem("isEditorLoggedIn", "true");
-  window.location.href = "/index.html?role=editor";
+  window.location.href = "index.html?role=editor";
 });
 
 // ==========================
@@ -53,7 +53,7 @@ logoutBtn?.addEventListener("click", () => {
   // ==========================
   // FORCE GUEST MODE
   // ==========================
-  window.location.href = "/index.html?role=guest";
+  window.location.href = "index.html?role=guest";
 });
 
 // ===== Authorization =====
