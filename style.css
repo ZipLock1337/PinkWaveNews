@@ -501,7 +501,7 @@ ul {
     width: 100%;
     max-width: 1280px;
     height: 520px;
-    background-image: url("/img/informed.png");
+    background-image: url("informed.png");
     background-size: cover;
     background-position: center;
     border-radius: 32px;
